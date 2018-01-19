@@ -13,7 +13,7 @@
 # limitations under the License.
 
 #gapps blobs
-$(call inherit-product, vendor/pixelgapps/pixel-gapps-blobs.mk)
+$(call inherit-product, vendor/kronicgapps/kronic-gapps-blobs.mk)
 
 # /app
 PRODUCT_PACKAGES += \
