@@ -21,7 +21,6 @@ PRODUCT_PACKAGES += \
     GoogleContactsSyncAdapter \
     GoogleTTS \
     Hangouts \
-    PlusOne \
     talkback \
     YouTube
 
