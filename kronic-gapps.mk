@@ -18,7 +18,6 @@ $(call inherit-product, vendor/kronicgapps/kronic-gapps-blobs.mk)
 # /app
 PRODUCT_PACKAGES += \
     FaceLock \
-    GoogleCamera \
     GoogleContactsSyncAdapter \
     GoogleTTS \
     Hangouts \
