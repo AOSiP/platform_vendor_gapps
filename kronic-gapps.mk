@@ -45,7 +45,6 @@ PRODUCT_PACKAGES += \
     GooglePartnerSetup \
     GoogleServicesFramework \
     Phonesky \
-    PixelLauncher \
     PrebuiltGmsCore \
     DynamiteModulesA \
     DynamiteModulesB \
