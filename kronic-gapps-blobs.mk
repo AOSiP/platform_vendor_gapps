@@ -13,7 +13,6 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
-    vendor/kronicgapps/etc/permissions/com.google.android.camera.experimental2016.xml:system/etc/permissions/com.google.android.camera.experimental2016.xml \
     vendor/kronicgapps/etc/permissions/com.google.android.dialer.support.xml:system/etc/permissions/com.google.android.dialer.support.xml \
     vendor/kronicgapps/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
     vendor/kronicgapps/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
@@ -23,11 +22,15 @@ PRODUCT_COPY_FILES += \
     vendor/kronicgapps/etc/sysconfig/google_vr_build.xml:system/etc/sysconfig/google_vr_build.xml \
     vendor/kronicgapps/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml \
     vendor/kronicgapps/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
+    vendor/kronicgapps/lib/libfrsdk.so:system/lib/libfrsdk.so \
     vendor/kronicgapps/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
     vendor/kronicgapps/lib64/libfacenet.so:system/lib64/libfacenet.so \
+    vendor/kronicgapps/lib64/libfrsdk.so:system/lib64/libfrsdk.so \
     vendor/kronicgapps/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
     vendor/kronicgapps/lib64/libgdx.so:system/lib64/libgdx.so \
     vendor/kronicgapps/lib64/libgeswallpapers-jni.so:system/lib64/libgeswallpapers-jni.so \
+    vendor/kronicgapps/lib64/libjni_latinime.so:system/lib64/libjni_latinime.so \
+    vendor/kronicgapps/lib64/libjni_latinimegoogle.so:system/lib64/libjni_latinimegoogle.so \
     vendor/kronicgapps/usr/srec/en-US/APP_NAME.fst:system/usr/srec/en-US/APP_NAME.fst \
     vendor/kronicgapps/usr/srec/en-US/APP_NAME.syms:system/usr/srec/en-US/APP_NAME.syms \
     vendor/kronicgapps/usr/srec/en-US/am_phonemes.syms:system/usr/srec/en-US/am_phonemes.syms \
