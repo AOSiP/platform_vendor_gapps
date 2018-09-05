@@ -17,8 +17,10 @@ $(call inherit-product, vendor/kronicgapps/kronic-gapps-blobs.mk)
 
 # /app
 PRODUCT_PACKAGES += \
+    CalendarGooglePrebuilt \
     FaceLock \
     GoogleContactsSyncAdapter \
+    GoogleExtShared \
     GoogleTTS \
     Hangouts \
     talkback
@@ -31,10 +33,13 @@ PRODUCT_PACKAGES += \
 
 # /priv-app
 PRODUCT_PACKAGES += \
+    AndroidMigratePrebuilt \
+    AndroidPlatformServices \
     ConfigUpdater \
     ConnMetrics \
     GmsCoreSetupPrebuilt \
     GoogleBackupTransport \
+    GoogleExtServices \
     GoogleFeedback \
     GoogleLoginService \
     GoogleOneTimeInitializer \
@@ -42,9 +47,6 @@ PRODUCT_PACKAGES += \
     GoogleServicesFramework \
     Phonesky \
     PrebuiltGmsCore \
-    DynamiteModulesA \
-    DynamiteModulesB \
-    DynamiteModulesC \
     SetupWizard \
     Velvet
 
